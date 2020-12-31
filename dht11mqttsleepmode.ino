@@ -8,12 +8,12 @@
 #define uS_TO_S_FACTOR 1000000  /* Conversion factor for micro seconds to seconds */
 #define TIME_TO_SLEEP  60  
 
-const char* ssid = "I'm_teapot";
-const char* password = "kukhol2000";
-const char* mqtt_server = "192.168.31.134";
-const char* mqttUsername = "Erag0";
-const char* mqttPassword = "366326434";
-const char* mqttClientName = "Erag0";
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_server = "";
+const char* mqttUsername = "";
+const char* mqttPassword = "";
+const char* mqttClientName = "";
 const char* tempTopic = "temp";
 
 DHT dht(DHTPIN, DHTTYPE);
